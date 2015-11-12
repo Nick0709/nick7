@@ -1,0 +1,133 @@
+.conteiner .row{
+    margin-top: 50px;
+}
+
+#menu_body li ul {
+	display: none;
+	}
+#menu_body li:hover ul, #menu_body li.over ul {
+	display: block;
+	}
+ #menu_body {
+    background:#212121;
+    width: 600px;
+    }
+#menu_body a {
+	display: block;
+	width: 300px;
+	height: 24px;
+	padding-left: 15px;
+	text-align: center;
+	} 
+
+#menu_body ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #000;
+    margin-left: -40px;
+    padding-left: 0px;
+    } 
+
+#menu_body ul li a {
+	width: 600px;
+	height: 24px;
+    color: #fff;
+    text-decoration: none;
+	font-size: 115%;
+	font-family: sans-serif;
+	text-align: center;
+    } 
+
+#menu_body ul li a:hover {
+    color: #000;
+    text-decoration: none;
+	background:#9E9E9E;
+	text-align: center;
+    } 
+
+#menu_body ul li ul li {
+    border: 0;
+    list-style-type: none;
+    color: #000;
+    list-style-position: inside;
+	background:#E0E0E0;
+    } 
+
+#menu_body ul li ul{
+    border-top: 1px solid #212121;
+    margin-left: -10px;
+    padding-left: 50px;
+    }
+
+.parent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+#center {
+	top: 50%;
+	left: 30%;
+	width: 200px;
+	height: 450px;
+	position: absolute;
+	margin-top: -225px;
+	margin-left: -100px; 
+	text-align: center;
+}
+body {background-color:#F5F5F5;
+}
+
+h2 {
+	color: red;
+	font: 36pt sans-serif;
+	font-weight: bold;
+}
+
+h3 {
+	color: #212121;
+	font: 28pt sans-serif;
+	font-weight: bold;
+}
+
+#free {
+	position:fixed;
+	top:20px;
+	right:100px;
+	height:203px;
+	width:200px;
+	background-image:url(../images/nick_photo.png);
+}
+
+.navbar-default {
+  background-color: #212121;
+  border-color: #212121;
+}
+
+.cen {
+	margin-top: 7px;
+  	margin-left: 0;
+	color: #fff;
+}
+
+#right {
+	text-align: right;
+}
+
+#left {
+	text-align: left;
+}
+
+.row {
+	height: 100px;
+	margin-right: -15px;
+  	margin-left: -15px;
+}
+
+.row2 {
+	height: 500px;
+	margin-right: -15px;
+  	margin-left: -15px;
+}
